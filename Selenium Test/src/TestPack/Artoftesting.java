@@ -19,7 +19,7 @@ public class Artoftesting {
 	{
 		System.setProperty("webdriver.chrome.driver","E:\\Selenium and Chrome files\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
-		//Syystem.out
+		//Syystem.out.print
 		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.MILLISECONDS);
 		driver.get("https://www.facebook.com/");
 		
